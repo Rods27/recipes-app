@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="master-container">
       <Switch>
-        <Route exact path="/home" component={ Login } />
+        <Route path="/" component={ Login } />
         <Route
           exact
           path="/comidas/:id/in-progress"

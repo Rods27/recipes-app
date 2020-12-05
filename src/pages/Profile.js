@@ -13,7 +13,7 @@ class Profile extends React.Component {
   handleClick() {
     const { history } = this.props;
     localStorage.clear();
-    history.push('/home');
+    history.push('/login');
   }
 
   render() {
