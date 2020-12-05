@@ -10,7 +10,7 @@ import store from './store/index';
 
 ReactDOM.render(
   <Provider store={ store }>
-    <BrowserRouter history={ createBrowserHistory() }>
+    <BrowserRouter history={ createBrowserHistory() } basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>
   </Provider>,
