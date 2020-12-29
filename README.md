@@ -1,11 +1,11 @@
 # Recipes-App
-<img align ="right" src="/src/images/app-image-1.png" width="1000" /><br>
+<img align ="center" src="/src/images/app-image-1.png" width="1200" />
 
-<img align ="right" src="/src/images/app-image-2.png" width="1000" /><br>
+<img align ="center" src="/src/images/app-image-2.png" width="1200" />
 
-<img align ="right" src="/src/images/app-image-3.png" width="1000" /><br>
+<img align ="center" src="/src/images/app-image-3.png" width="1200" />
 
-Link da pasta das imagens <a href="https://github.com/Rods27/recipes-app/tree/master/src/images/">aqui.</a>
+<br>Link da pasta das imagens <a href="https://github.com/Rods27/recipes-app/tree/master/src/images/">aqui.</a>
 
 ## Feedback 
 
