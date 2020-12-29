@@ -19,6 +19,7 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
   <li>Apesar do foco do app ser mobile, ele não foi desenvolvido em um ambiente mobile, então pode ser aberto pelo browser.</li>
   <li>O login é apenas por carater de layout, o crivo do email e apenas pelo formato, e da senha apenas por quantidade de caracteres.</li>
   <li>Design web não desenvolvido.</li>
+  <li>Projeto feito com eslint da AirBnb</li>
 </ul>
 
 ## Funcionalidades
@@ -26,8 +27,8 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
 <ul>
   <li>É uma biblioteca de receitas de comidas ou bebidas, onde pode ser filtrado de acordo com tags(Chicken, All, Milk/Float/Shake), ingredientes, local, ou critérios especificos.<br>
   <li>Comece uma receita, veja as instruções, videos, e assim que terminar de fazer ingrediente por ingrediente, preencha-os e termine a receita.</li>
-  <li>Receitas feitas, favoritas e concluidas podem ser visualizadas e filtradas por (All, Foods, Drinks).</li><br>
-  <li>Search
+  <li>Receitas feitas e favoritadas podem ser visualizadas e filtradas por (All, Foods, Drinks).</li><br>
+  <li>Login
     <ul>
       <li>Pesquisa produtos de acordo com a categoria ou a query digitada na barra de buscas.</li>  
       <li>Lista os produtos e o usuário pode adicoina-los ao carrinho uma vez.</li> 
