@@ -25,7 +25,8 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
 
 <ul>
   <li>É uma biblioteca de receitas de comidas ou bebidas, onde pode ser filtrado de acordo com tags(Chicken, All, Milk/Float/Shake), ingredientes, local, ou critérios especificos.<br>
-  <li>Ao pesquisar, aparecerá uma lista de no máximo 50 resultados onde aparecerão apenas 2 linhas com 6 produtos cada e o usuário poderá controlar com os botões Up e Down</li><br>
+  <li>Comece uma receita, veja as instruções, videos, e assim que terminar de fazer ingrediente por ingrediente, preencha-os e termine a receita</li><br>
+  <li>Receitas feitas, favoritas e concluidas podem ser visualizadas e filtradas por (All, Foods, Drinks)</li><br>
   <li>Search
     <ul>
       <li>Pesquisa produtos de acordo com a categoria ou a query digitada na barra de buscas.</li>  
