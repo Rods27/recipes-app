@@ -16,10 +16,8 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
 ## Observações
 
 <ul>
-  <li>Não tem tela de Login</li>
-  <li>Os formulários são apenas por questão de layout</li>
-  <li>O crivo na tela de Checkout é simples, já que o critério por enquanto, não é segurança.</li>
-  <li>Não implementado mobile.</li>
+  <li>Apesar do foco do app ser mobile, ele não foi desenvolvido em um ambiente mobile, então pode ser aberto web.</li>
+  <li>Design web não desenvolvido</li>
 </ul>
 
 ## Funcionalidades
