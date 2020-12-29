@@ -5,6 +5,10 @@
 
 <img align ="center" src="/src/images/app-image-3.png" width="1200" />
 
+<img align ="center" src="/src/images/speed-test.png" width="1200" />
+
+## Teste de Velocidade pelo Google
+
 <br>Link da pasta das imagens <a href="https://github.com/Rods27/recipes-app/tree/master/src/images/">aqui.</a>
 
 ## Feedback 
