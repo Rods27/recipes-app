@@ -11,22 +11,22 @@
 
 Ficarei bem agradecido caso queira me dar um feedback costrutivo, caso queira meus contatos estarão abaixo!
 
-Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27">Linkedin</a>
+Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27">Linkedin</a>.
 
 ## Observações
 
 <ul>
-  <li>Apesar do foco do app ser mobile, ele não foi desenvolvido em um ambiente mobile, então pode ser aberto pelo browser</li>
-  <li>O login é apenas por carater de layout, o crivo do email e apenas pelo formato, e da senha apenas por quantidade de caracteres</li>
-  <li>Design web não desenvolvido</li>
+  <li>Apesar do foco do app ser mobile, ele não foi desenvolvido em um ambiente mobile, então pode ser aberto pelo browser.</li>
+  <li>O login é apenas por carater de layout, o crivo do email e apenas pelo formato, e da senha apenas por quantidade de caracteres.</li>
+  <li>Design web não desenvolvido.</li>
 </ul>
 
 ## Funcionalidades
 
 <ul>
   <li>É uma biblioteca de receitas de comidas ou bebidas, onde pode ser filtrado de acordo com tags(Chicken, All, Milk/Float/Shake), ingredientes, local, ou critérios especificos.<br>
-  <li>Comece uma receita, veja as instruções, videos, e assim que terminar de fazer ingrediente por ingrediente, preencha-os e termine a receita</li><br>
-  <li>Receitas feitas, favoritas e concluidas podem ser visualizadas e filtradas por (All, Foods, Drinks)</li><br>
+  <li>Comece uma receita, veja as instruções, videos, e assim que terminar de fazer ingrediente por ingrediente, preencha-os e termine a receita.</li>
+  <li>Receitas feitas, favoritas e concluidas podem ser visualizadas e filtradas por (All, Foods, Drinks).</li><br>
   <li>Search
     <ul>
       <li>Pesquisa produtos de acordo com a categoria ou a query digitada na barra de buscas.</li>  
