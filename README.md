@@ -16,14 +16,15 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
 ## Observações
 
 <ul>
-  <li>Apesar do foco do app ser mobile, ele não foi desenvolvido em um ambiente mobile, então pode ser aberto web.</li>
+  <li>Apesar do foco do app ser mobile, ele não foi desenvolvido em um ambiente mobile, então pode ser aberto pelo browser</li>
+  <li>O login é apenas por carater de layout, o crivo do email e apenas pelo formato, e da senha apenas por quantidade de caracteres</li>
   <li>Design web não desenvolvido</li>
 </ul>
 
 ## Funcionalidades
 
 <ul>
-  <li>Faz uma pesquisa na API do Mercado Livre e filtra produtos de acordo com a pesquisa e a categoria (Games, Celulares, Veículos, Imóveis e etc..).</li><br>
+  <li>É uma biblioteca de receitas de comidas ou bebidas, onde pode ser filtrado de acordo com tags(Chicken, All, Milk/Float/Shake), ingredientes, local, ou critérios especificos.<br>
   <li>Ao pesquisar, aparecerá uma lista de no máximo 50 resultados onde aparecerão apenas 2 linhas com 6 produtos cada e o usuário poderá controlar com os botões Up e Down</li><br>
   <li>Search
     <ul>
