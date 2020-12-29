@@ -8,7 +8,7 @@ import {
   ExploreFoodsByArea, NotFound,
 } from './pages';
 import './App.css';
-import './Slider.scss';
+import './Slider.css';
 
 function App() {
   return (
