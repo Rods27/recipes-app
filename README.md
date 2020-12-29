@@ -74,6 +74,23 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
       <li>Desfavorite sua comida, assim ela deixará de estar nesta tela.</li>
     </ul><br>
   </li>
+  
+   <li>Profile
+    <ul>
+      <li>Acesse suas Receitas favoritas ou Feitas pela tela de perfil.</li>
+    </ul><br>
+  </li>
+  
+   <li>Explore Food/Drinks
+    <ul>
+      <li>Explore comidas ou bebidas por: </li>
+      <ul>
+        <li>Ingredientes.</li>
+        <li>Local de Origem.</li>
+        <li>Ou seja surpreendido por uma receita aleatória.</li>
+      </ul>
+    </ul><br>
+  </li>
 
 ## Pré Requisitos
 <ul>
