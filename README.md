@@ -27,7 +27,9 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
 <ul>
   <li>É uma biblioteca de receitas de comidas ou bebidas, onde pode ser filtrado de acordo com tags(Chicken, All, Milk/Float/Shake), ingredientes, local, ou critérios especificos.<br>
   <li>Comece uma receita, veja as instruções, videos, e assim que terminar de fazer ingrediente por ingrediente, preencha-os e termine a receita.</li>
-  <li>Receitas feitas e favoritadas podem ser visualizadas e filtradas por (All, Foods, Drinks).</li><br>
+  <li>Receitas feitas e favoritadas podem ser visualizadas e filtradas por (All, Foods, Drinks).</li>
+  <li>Todas as receitas de comida são pegas pela API <a href="https://www.themealdb.com/">themealdb</a> e as de bebidas
+    <a href="https://www.thecocktaildb.com/">thecocktaildb</a></li><br>
   
   <li>Foods/Drinks
     <ul>
