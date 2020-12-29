@@ -1,37 +1,45 @@
 # Recipes-App
-<img align ="right" src="/src/images/app-image-1.png" width="1000" />
-<<<<<<< HEAD
-<img align ="right" src="/src/images/app-image-2.png" width="1000" />
-<img align ="right" src="/src/images/app-image-3.png" width="1000" />
-=======
->>>>>>> 77468ea2801dceb8b84d8d207fbae44ef86a282d
+<img align ="center" src="/src/images/app-image-1.png" width="1200" />
 
-Link da pasta das imagens <a href="https://github.com/Rods27/frontend-online-store/tree/master/src/img/app-images/">aqui.</a>
+<img align ="center" src="/src/images/app-image-2.png" width="1200" />
+
+<img align ="center" src="/src/images/app-image-3.png" width="1200" />
+
+<br>Link da pasta das imagens <a href="https://github.com/Rods27/recipes-app/tree/master/src/images/">aqui.</a>
 
 ## Feedback 
 
 Ficarei bem agradecido caso queira me dar um feedback costrutivo, caso queira meus contatos estarão abaixo!
 
-Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27">Linkedin</a>
+Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27">Linkedin</a>.
 
 ## Observações
 
 <ul>
-  <li>Não tem tela de Login</li>
-  <li>Os formulários são apenas por questão de layout</li>
-  <li>O crivo na tela de Checkout é simples, já que o critério por enquanto, não é segurança.</li>
-  <li>Não implementado mobile.</li>
+  <li>Apesar do foco do app ser mobile, ele não foi desenvolvido em um ambiente mobile, então pode ser aberto pelo browser.</li>
+  <li>O login é apenas por carater de layout, o crivo do email e apenas pelo formato, e da senha apenas por quantidade de caracteres.</li>
+  <li>Design web não desenvolvido.</li>
+  <li>Projeto feito com eslint da AirBnb.</li>
 </ul>
 
 ## Funcionalidades
 
 <ul>
-  <li>Faz uma pesquisa na API do Mercado Livre e filtra produtos de acordo com a pesquisa e a categoria (Games, Celulares, Veículos, Imóveis e etc..).</li><br>
-  <li>Ao pesquisar, aparecerá uma lista de no máximo 50 resultados onde aparecerão apenas 2 linhas com 6 produtos cada e o usuário poderá controlar com os botões Up e Down</li><br>
-  <li>Search
+  <li>É uma biblioteca de receitas de comidas ou bebidas, onde pode ser filtrado de acordo com tags(Chicken, All, Milk/Float/Shake), ingredientes, local, ou critérios especificos.<br>
+  <li>Comece uma receita, veja as instruções, videos, e assim que terminar de fazer ingrediente por ingrediente, preencha-os e termine a receita.</li>
+  <li>Receitas feitas e favoritadas podem ser visualizadas e filtradas por (All, Foods, Drinks).</li><br>
+  <li>Food/Drinks
     <ul>
-      <li>Pesquisa produtos de acordo com a categoria ou a query digitada na barra de buscas.</li>  
+      <li>Pesquisa receitas assim que a tela renderiza, pode ser tiltrado por tag.</li>  
       <li>Lista os produtos e o usuário pode adicoina-los ao carrinho uma vez.</li> 
+    </ul><br>
+  </li>
+  
+   <li>Toogle Search
+    <ul>
+      <li>Pesquisa por uma receita espeficica com critérios mais específicos.</li>
+      <li>É acessado pela Food ou Drinks.</li>
+      <li>Filtra pelo texto de acordo com um dos seguintes critérios (Ingrediente, Nome, Primeira Letra).
     </ul><br>
   </li>
   
