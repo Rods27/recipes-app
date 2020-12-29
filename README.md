@@ -31,9 +31,9 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
   
   <li>Food/Drinks
     <ul>
-      <li>Pesquisa 12 receitas assim que a tela renderiza, pode ser tiltrado por tag.</li>
+      <li>Pesquisa 12 receitas assim que a tela renderiza, pode ser tiltrado por uma tag.</li>
       <li>Nesta tela pode-se acessar o Perfil/Toogle Search/Comidas/Bebidas/Explore.</li>
-      <li>Assim que clicar em uma receita será redirecionado ao Food/Drink Details.</li>
+      <li>Assim que clicar em um card de receita será redirecionado ao Food/Drink Details.</li>
     </ul><br>
   </li>
   
@@ -45,10 +45,11 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
     </ul><br>
   </li>
   
-  <li>Product Details
+  <li>Food/Drink Details
     <ul>
-      <li>Pode ser acessado através do Search, clicando na imagem do produto.</li>  
-      <li>Pode adicionar ao carrinho uma vez e deixar um comentário.</li> 
+      <li>O usuário pode favoritar a comida, Copiar o Link.</li>  
+      <li>É renderizado um Video de acordo com a receita.</li> 
+      <li>São recomendados comidas ser o usuário está na tela de bebidas, vice-versa.</li> 
     </ul><br>
   </li>
   
