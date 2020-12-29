@@ -29,7 +29,7 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
   <li>Comece uma receita, veja as instruções, videos, e assim que terminar de fazer ingrediente por ingrediente, preencha-os e termine a receita.</li>
   <li>Receitas feitas e favoritadas podem ser visualizadas e filtradas por (All, Foods, Drinks).</li>
   <li>Todas as receitas de comida são pegas pela API <a href="https://www.themealdb.com/">themealdb</a> e as de bebidas
-    <a href="https://www.thecocktaildb.com/">thecocktaildb</a></li><br>
+    <a href="https://www.thecocktaildb.com/">thecocktaildb</a>.</li><br>
   
   <li>Foods/Drinks
     <ul>
