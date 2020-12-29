@@ -19,11 +19,7 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
   <li>Apesar do foco do app ser mobile, ele não foi desenvolvido em um ambiente mobile, então pode ser aberto pelo browser.</li>
   <li>O login é apenas por carater de layout, o crivo do email e apenas pelo formato, e da senha apenas por quantidade de caracteres.</li>
   <li>Design web não desenvolvido.</li>
-<<<<<<< HEAD
   <li>Projeto feito com eslint da AirBnb.</li>
-=======
-  <li>Projeto feito com eslint da AirBnb</li>
->>>>>>> b330da2852117991539e7bbef7e6f62c35b142be
 </ul>
 
 ## Funcionalidades
@@ -32,14 +28,12 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
   <li>É uma biblioteca de receitas de comidas ou bebidas, onde pode ser filtrado de acordo com tags(Chicken, All, Milk/Float/Shake), ingredientes, local, ou critérios especificos.<br>
   <li>Comece uma receita, veja as instruções, videos, e assim que terminar de fazer ingrediente por ingrediente, preencha-os e termine a receita.</li>
   <li>Receitas feitas e favoritadas podem ser visualizadas e filtradas por (All, Foods, Drinks).</li><br>
-<<<<<<< HEAD
+  
   <li>Food/Drinks
-=======
-  <li>Login
->>>>>>> b330da2852117991539e7bbef7e6f62c35b142be
     <ul>
-      <li>Pesquisa receitas assim que a tela renderiza, pode ser tiltrado por tag.</li>  
-      <li>Lista os produtos e o usuário pode adicoina-los ao carrinho uma vez.</li> 
+      <li>Pesquisa 12 receitas assim que a tela renderiza, pode ser tiltrado por uma tag.</li>
+      <li>Nesta tela pode-se acessar o Perfil/Toogle Search/Comidas/Bebidas/Explore.</li>
+      <li>Assim que clicar em um card de receita será redirecionado ao Food/Drink Details.</li>
     </ul><br>
   </li>
   
@@ -51,10 +45,11 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
     </ul><br>
   </li>
   
-  <li>Product Details
+  <li>Food/Drink Details
     <ul>
-      <li>Pode ser acessado através do Search, clicando na imagem do produto.</li>  
-      <li>Pode adicionar ao carrinho uma vez e deixar um comentário.</li> 
+      <li>O usuário pode favoritar a comida, Copiar o Link.</li>  
+      <li>É renderizado um Video de acordo com a receita.</li> 
+      <li>São recomendados comidas ser o usuário está na tela de bebidas, vice-versa.</li> 
     </ul><br>
   </li>
   
