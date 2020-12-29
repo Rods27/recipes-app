@@ -102,15 +102,14 @@
   }
 
   .slide {
-    width: 50%;
+    width: 55%;
     height: 180px;
   }
 
   .slide input{
-    width: 130px;
+    width: 133px;
     height: 120px;
   }
-
 }
 
 @media (min-width: 400px) {
@@ -121,7 +120,7 @@
   }
 
   .slide input{
-    width: 145px;
+    width: 150px;
     height: 145px;
   }
 }
