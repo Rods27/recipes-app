@@ -48,30 +48,17 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
   <li>Food/Drink Details
     <ul>
       <li>O usuário pode favoritar a comida, Copiar o Link.</li>  
-      <li>É renderizado um Video de acordo com a receita.</li> 
-      <li>São recomendados comidas ser o usuário está na tela de bebidas, vice-versa.</li> 
+      <li>É renderizado um video de acordo com a receita.</li> 
+      <li>São recomendados comidas ser o usuário está na tela de bebidas, vice-versa.</li>
+      <li>O usuário será redirecionado para Foods/Drinks in Progress assim que clicar no botão "Iniciar Receita".</li> 
     </ul><br>
   </li>
-  
-  <li>Toogle Shopping Cart
+    <li>Food/Drink In-progress
     <ul>
-      <li>Mostra os produtos adicionados ao carrinho, o usuário pode adicionar ou diminuir a quantidade, caso seja 0 o produto saírá da lista.</li>  
-      <li>O usuário pode acessar a tela de Checkout pelo botão Finalizar Compra</li> 
-    </ul><br>
-  
-   <li>Checkout
-    <ul>
-      <li>
-        Mostra os produtos adicionados ao carrinho, o usuário deve preencher com suas informações e forma de pagamento para conseguir acessar a proxima tela.           </li>  
+      <li>Finalize uma parte da receita clicando no ingrediente específico.</li>  
+      <li>Preencha tudo e finalize a receita, será adicionado e redireciado a Receitas Feitas.</li>  
     </ul><br>
   </li>
-  
-   <li>Confirmation
-    <ul>
-      <li>Mostra as informações principais da compra para a confirmação do usuário.</li>  
-    </ul><br>
-  </li>
-</ul>
 
 ## Pré Requisitos
 <ul>
