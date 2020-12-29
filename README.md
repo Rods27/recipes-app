@@ -29,7 +29,7 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
   <li>Comece uma receita, veja as instruções, videos, e assim que terminar de fazer ingrediente por ingrediente, preencha-os e termine a receita.</li>
   <li>Receitas feitas e favoritadas podem ser visualizadas e filtradas por (All, Foods, Drinks).</li><br>
   
-  <li>Food/Drinks
+  <li>Foods/Drinks
     <ul>
       <li>Pesquisa 12 receitas assim que a tela renderiza, pode ser tiltrado por uma tag.</li>
       <li>Nesta tela pode-se acessar o Perfil/Toogle Search/Comidas/Bebidas/Explore.</li>
@@ -45,18 +45,33 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
     </ul><br>
   </li>
   
-  <li>Food/Drink Details
+  <li>Foods/Drinks Details
     <ul>
       <li>O usuário pode favoritar a comida, Copiar o Link.</li>  
       <li>É renderizado um video de acordo com a receita.</li> 
       <li>São recomendados comidas ser o usuário está na tela de bebidas, vice-versa.</li>
+      <li>Favorite sua receita, assim poderá visualiza-la na tela de receitas favoritas.</li>
       <li>O usuário será redirecionado para Foods/Drinks in Progress assim que clicar no botão "Iniciar Receita".</li> 
     </ul><br>
   </li>
-    <li>Food/Drink In-progress
+    <li>Foods/Drinks In-progress
     <ul>
+      <li>Favorite sua receita, assim poderá visualiza-la na tela de receitas favoritas.</li>
       <li>Finalize uma parte da receita clicando no ingrediente específico.</li>  
       <li>Preencha tudo e finalize a receita, será adicionado e redireciado a Receitas Feitas.</li>  
+    </ul><br>
+  </li>
+  
+   <li>Foods/Drinks Done
+    <ul>
+      <li>Filtre suas receitas feitas por (All, Food, Drinks).</li>  
+    </ul><br>
+  </li>
+  
+   <li>Favorite Foods/Drinks
+    <ul>
+      <li>Filtre suas receitas favoritas (All, Food, Drinks).</li>
+      <li>Desfavorite sua comida, assim ela deixará de estar nesta tela.</li>
     </ul><br>
   </li>
 
