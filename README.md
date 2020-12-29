@@ -1,10 +1,9 @@
 # Recipes-App
 <img align ="right" src="/src/images/app-image-1.png" width="1000" />
-<<<<<<< HEAD
+
 <img align ="right" src="/src/images/app-image-2.png" width="1000" />
+
 <img align ="right" src="/src/images/app-image-3.png" width="1000" />
-=======
->>>>>>> 77468ea2801dceb8b84d8d207fbae44ef86a282d
 
 Link da pasta das imagens <a href="https://github.com/Rods27/frontend-online-store/tree/master/src/img/app-images/">aqui.</a>
 
