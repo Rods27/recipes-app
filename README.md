@@ -117,5 +117,5 @@ Redux-Thunk<br><br>
 `npm i redux-thunk`<br><br>
 
 ## Link do Deploy
-Depois que clicar no Link, é importante clicar com o segundo botão na tela, depois em inspecionar e na parte superior esquerda da janela que apareceu, clique no segundo icone para habilitar a visulização em resolução mobile (Toogle device toolbar).
+Depois que clicar no Link, é importante clicar com o segundo botão na tela, depois em inspecionar e na parte superior esquerda da janela que apareceu, clique no segundo icone para habilitar a visualização em resolução mobile (Toogle device toolbar).
 https://rods27.github.io/recipes-app/
