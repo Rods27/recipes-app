@@ -1,0 +1,391 @@
+@media (max-width:600px) {
+  body {
+    background: url(https://ak.picdn.net/shutterstock/videos/14891857/thumb/1.jpg);
+  }
+  .toogle-search-input {
+    background: url(https://ak.picdn.net/shutterstock/videos/14891857/thumb/1.jpg);
+    width: 90%;
+    height: 170px;
+    border: 2px solid black;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: none;
+    font-size: 15px;
+  }
+
+  .toogle-search-input input[type=radio] {width: 16px; margin-right: 4px;}
+
+  .food-drink-container {
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards-container p {
+    margin: 0;
+  }
+
+  .card {
+    min-width: 120px;
+    max-width: 150px;
+    min-height: 165px;
+    max-height: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.350);
+    border-radius: 5px;
+    margin: 5px;
+    justify-content: space-between;
+  }
+
+  .card input {
+    border-radius: 4px;
+  }
+
+  .card p {
+    max-width: 80%;
+    flex-wrap: nowrap;
+  }
+
+  .global-header h1 {
+    font-size: 20px;
+    text-shadow: 0 0 3px #000;
+  }
+  .global-header input {
+    width: 100%;
+  }
+
+  .profile-icon-div {
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    height: 80px;
+  }
+  .search-input-div {
+    width: 110px;
+    height: 80px;
+  }
+  .global-footer input {
+    width: 50px;
+  }
+  .toogle-search-input input {
+    width: 85%;
+    height: 22px;
+    margin-top: 20px;
+  }
+
+  .radio-input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .radio-input-second-div {
+    display: flex;
+    justify-content: center;
+  }
+  .radio-input-second-div label {
+    display: flex;
+    align-items: flex-end;
+  }
+  .radio-input-second-div input {
+    margin: 0;
+    margin-left: 15px;
+  }
+  .radio-input-div input {
+    width: 30px;
+  }
+  .search-button-div {
+    width: 100%;
+  }
+  .search-button-div button {
+    margin-top: 15px;
+    margin-left: 20px;
+    background: #5a2d0c;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    letter-spacing: 1px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 15.5px;
+    color: white;
+    width: 100px;
+    height: 30px;
+  }
+  .search-button-div button:focus {
+    outline: none;
+  }
+
+  .login-container {
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    left: 50%;
+    margin: 35% auto;
+    transform: translate(-50%, 0);
+  }
+
+  .login-container label {display: flex;}
+
+  .login-div {width: 100%;height: 100%; margin-bottom: 20px;}
+  .login-container h1 {margin: 20px auto 0  auto !important;}
+  .login-container input {
+    width: 75%;
+    margin: 15px auto;
+    height: 35px;
+  }
+  .global-footer {
+    height: 55px;
+    border-top: 2px solid rgba(0, 0, 0, 0.725);
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxAYMat1kXeU_Ts2nEK_QYxLkQOFEUylkbGA&usqp=CAU);
+  }
+  .global-header {
+    height: 55px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.725);
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxAYMat1kXeU_Ts2nEK_QYxLkQOFEUylkbGA&usqp=CAU);
+  }
+  .detail-card {
+    width: 85%;
+  }
+  .details-title-div {
+    width: 95%;
+  }
+  .details-title-div h1 {
+    font-size: 25px;
+  }
+  .details-title-div p {
+    margin: 0;
+    padding: 0;
+  }
+  .recipe-buttons {
+    width: 95px;
+    margin-top: 10px;
+  }
+  .recipe-buttons input {
+    margin-left: 5px;
+  }
+  .ingredients {
+    width: 90%;
+  }
+  .detail-ingredients {
+    width: 100%;
+  }
+  .detail-instructions {
+    width: 90%;
+  }
+  .category-buttons {
+    width: 100%;
+  }
+  .buttons-done button {
+    width: 100px;
+  }
+  .category-buttons {
+    flex-wrap: wrap;
+  }
+  .food-filters {
+    text-align: left;
+    width: 75px;
+    height: 30px;
+    font-size: 12px;
+    margin: 7px 15px 15px 10px;
+    padding-left: 7px;
+  }
+  .food-filters-checked {
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    margin: 0 15px 30px 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    border: 1px solid rgba(0, 0, 0, 0.450);
+    border-radius: 5px;
+    text-align: left;
+    width: 75px;
+    height: 30px;
+    font-size: 12px;
+    margin: 7px 15px 15px 10px;
+    padding-left: 7px;
+    background: #ac5c22;
+  }
+  .drink-filters {
+    text-align: left;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    margin: 7px 15px 15px 10px;
+    padding-left: 7px;
+  }
+  .food-or-drink-done-card {
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    margin: 0 10px;
+  }
+  .done-recipes-container {
+    margin: 90px auto 20px auto;
+  }
+  .food-drink-card {
+    flex-direction: row;
+    width: 95%;
+    height: 180px;
+    border: 1px solid rgba(0, 0, 0, 0.250);
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.525);
+    margin: 20px 0;
+  }
+  .done-recipe-image {
+    width: 160px;
+    height: 100%;
+    border-radius: 3px;
+  }
+  .left-side-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 56%;
+  }
+  .food-drink-top-div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+  }
+  .food-drink-titles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 12px;
+    max-width: 180px;
+    font-weight: 100;
+    align-items: center;
+  }
+  .food-drink-footer {
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 40%;
+  }
+  .food-drink-image {
+    flex-direction: column;
+    width: 30%;
+    height: 50px;
+  }
+  .done-recipe-share-btn {
+    width: 30px;
+    height: 30px;
+  }
+  .tags-div p {
+    background-color: #8d4613;
+    color: white;
+    border-radius: 18px;
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+
+  .not-found-container {
+    width: 95%;
+    height: 95vh;
+  }
+
+  .not-found-container p {
+    font-size: 25px;
+  }
+
+  .food-drink-titles p {
+    margin: 10px 0 0 0;
+  }
+
+  .button-title {
+    display: flex;
+    font-size: 22px;
+    width: 85%;
+    justify-content: center;
+  }
+
+  .fav-drink-card {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .food-drink-image {
+    flex-direction: column;
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+  }
+  .fav-card-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width:360px) {
+  #root {
+    width: 100vw;
+  }
+
+  .food-filters{
+    width: 75px;
+  }
+
+  .food-or-drink-done-card {
+    width: 100vw;
+    margin: 0;
+  }
+  
+  .button-title {
+    display: flex;
+    font-size: 22px;
+    width: 85%;
+    justify-content: center;
+  }
+
+  .food-drink-card {
+    width: 90%;
+    margin: 20px 0;
+    max-height: 50%;
+  }
+
+  .tags-div p{
+    padding: 2px;
+    font-size: 11.5px;
+  }
+
+  .done-recipe-image {
+    width: 140px;
+    height: 100%;
+    border-radius: 3px;
+  }
+
+  .fav-drink-card {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .food-drink-image {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    height: 90px;
+    justify-content: space-evenly;
+  }
+
+  .fav-card-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
