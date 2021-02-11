@@ -5,11 +5,12 @@ import {
   FavoriteRecipes, FoodsDetails, DrinksDetails,
   FoodsRecipesInProgress, DrinksRecipesInProgress,
   ExploreDrinks, ExploreFoods, ExploreFoodsByIngredient, ExploreDrinksByIngredient,
-  ExploreFoodsByArea, NotFound,
+  ExploreFoodsByArea, NotFound, CreateUser
 } from './pages';
 import './styles/App.css';
 import './styles/Slider.css';
 import './styles/mobile.css'
+import './styles/create-user.scss';
 
 function App() {
   return (
@@ -46,7 +47,9 @@ function App() {
         <Route exact path="/perfil" component={ Profile } />
         <Route exact path="/receitas-feitas" component={ DoneRecipes } />
         <Route exact path="/receitas-favoritas" component={ FavoriteRecipes } />
+        <Route exact path="/criar-conta" component={ CreateUser } />
         <Route path="/*" component={ NotFound } />
+        
       </Switch>
     </div>
   );

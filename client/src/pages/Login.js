@@ -102,6 +102,7 @@ class Login extends React.Component {
             >
               Login
             </button>
+            <span onClick={ () => this.props.history.push('/criar-conta') }>Criar conta</span>
           </div>
         </form>
       </div>

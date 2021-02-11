@@ -132,7 +132,19 @@
 
   .login-container label {display: flex;}
 
-  .login-div {width: 100%;height: 100%; margin-bottom: 20px;}
+  .login-div {
+    width: 100%;
+    height: 100%;
+  }
+  .login-div button {
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .login-div span {
+    box-shadow: none;
+    text-shadow: 0 0 1px #000;
+  }
   .login-container h1 {margin: 20px auto 0  auto !important;}
   .login-container input {
     width: 75%;

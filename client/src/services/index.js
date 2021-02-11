@@ -29,6 +29,13 @@ export async function authEmail(email, password) {
     return true
 }
 
+export async function createEmail(email, password) {
+  const user = await axios.post('http://localhost:3000/api/create-email', {email, password}) 
+    .then(response => response.request.response)
+    .then(response => JSON.parse(response))
+    return true
+}
+
 export function fetchDrinks(endPoint, value) {
   let variavel;
   const INITIAL_LENGTH = 0;

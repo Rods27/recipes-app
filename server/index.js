@@ -15,7 +15,7 @@ app.get('/api/get-all', userController.getAll);
 
 app.post('/api/get-email/', userController.getByEmail);
 
-app.post('/api', userController.create);
+app.post('/api/create-email', userController.create);
 
 // app.put('/api', (_req, res) => {});
 
