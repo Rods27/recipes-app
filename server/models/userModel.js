@@ -20,7 +20,7 @@ const create = async ({ email, password }) => {
 
 const deleteByQuery = async (query) => {
   return getCollection('users').then((db) => 
-    db.deleteMany({ email:`/${query}/i` }));
+    db.deleteMany({ email: new RegExp(query, 'i') }));
 }
 
 module.exports = { getAll, create, getByEmail, deleteByQuery };
