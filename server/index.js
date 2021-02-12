@@ -19,7 +19,7 @@ app.post('/api/create-email', userController.create);
 
 // app.put('/api', (_req, res) => {});
 
-// app.delete('/api', (_req, res) => {});
+app.delete('/api/delete-query/', userController.deleteByQuery);
 
 app.use(errorMiddleware);
 

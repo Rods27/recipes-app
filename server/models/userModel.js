@@ -18,4 +18,9 @@ const create = async ({ email, password }) => {
   return { _id: user.insertedId, email, password };
 }
 
-module.exports = { getAll, create, getByEmail, };
+const deleteByQuery = async (query) => {
+  return getCollection('users').then((db) => 
+    db.deleteMany({ email:`/${query}/i` }));
+}
+
+module.exports = { getAll, create, getByEmail, deleteByQuery };

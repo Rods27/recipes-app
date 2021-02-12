@@ -20,11 +20,18 @@ const getByEmail = rescue(async (req, res) => {
 const create = rescue(async (req, res, _next) => {
   const { email, password } = req.body;
   const exists = await userModel.getByEmail(email, password);
-  if(!exists) {
+  //console.log(exists)
+  if(exists === null) {
     const user = await userModel.create({ email, password });
-    res.status(201).json(user);
+    return res.status(201).json(user);
   }
   res.status(422).json(`This user already exists.`);
 })
 
-module.exports = { create, getAll, getByEmail };
+const deleteByQuery = rescue(async (req, res, _next) => {
+  const query = req.query.q;
+  await userModel.deleteByQuery(query)
+  return res.status(204).json("ok");
+});
+
+module.exports = { create, getAll, getByEmail, deleteByQuery };

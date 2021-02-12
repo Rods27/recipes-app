@@ -23,17 +23,22 @@ export function fetchMeal(endPoint, value) {
 }
 
 export async function authEmail(email, password) {
-  const user = await axios.post('http://localhost:3000/api/get-email', {email, password}) 
-    .then(response => response.request.response)
-    .then(response => JSON.parse(response))
+  const user = (await axios.post('http://localhost:3000/api/get-email', {email, password})).request.response
+  if(user) {
     return true
+  } else {
+    return false 
+  }
 }
 
 export async function createEmail(email, password) {
-  const user = await axios.post('http://localhost:3000/api/create-email', {email, password}) 
-    .then(response => response.request.response)
-    .then(response => JSON.parse(response))
+  const user = await axios.post('http://localhost:3000/api/create-email/', {email, password}) 
+  console.log(user)
+  if(user) {
     return true
+  } else {
+    return false 
+  }
 }
 
 export function fetchDrinks(endPoint, value) {
